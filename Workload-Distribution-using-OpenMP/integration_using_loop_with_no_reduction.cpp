@@ -5,7 +5,8 @@
 #include <string>
 
 //iterations
-#define N 100000000
+//#define N 100000000
+#define N 100000
 using namespace std;
 
 //function
@@ -20,7 +21,7 @@ int main() {
     double sum = 0.0;
       
     //number of threads
-    int num_threads = 1;
+    int num_threads = 8;
 
     auto start = chrono::high_resolution_clock::now();
 

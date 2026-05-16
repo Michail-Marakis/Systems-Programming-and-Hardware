@@ -3,8 +3,8 @@
 #include <chrono>
 #include <omp.h>
 //iterations
-#define N 100000000
-
+//#define N 100000000
+#define N 100000
 //functions
 double f(double x) {
     
@@ -64,7 +64,7 @@ int main() {
     double h = (b - a) / N;
     double final_sum = 0.0;
 
-    int num_threads = 1;
+    int num_threads = 8;
 
     auto start_time = std::chrono::high_resolution_clock::now();
     //parallel region

@@ -3,7 +3,8 @@
 #include <chrono>
 #include <omp.h>
 //iterations
-#define N 100000000
+//#define N 100000000
+#define N 100000
 
 //functions
 double f(double x) {
