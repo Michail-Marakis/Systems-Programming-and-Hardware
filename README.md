@@ -14,16 +14,16 @@ The core objective is to isolate, profile, and mitigate hardware-specific bottle
 > **Parallel-Programming/** *(Root)*
 > 
 > * **Workload-Distribution-using-CUDA-OpenCL/** ──► *[Track 1: GPU Hardware Acceleration]*
->     * 📄 `code / scripts`
->     * 📄 `cuda-opencl-report.pdf`
+>     * `code`
+>     * `cuda-opencl-report.pdf`
 > * **Workload-Distribution-using-OpenMP/** ──► *[Track 1: OpenMP Parallelism]*
->     * 📄 `code / scripts`
->     * 📄 `OpenMP-report.pdf`
+>     * `code`
+>     * `OpenMP-report.pdf`
 > * **Workload-Distribution-using-pthreads/** ──► *[Track 1: Low-Level OS Threading & Locks]*
->     * 📄 `code / scripts`
->     * 📄 `pthread-report.pdf`
+>     * `code`
+>     * `pthread-report.pdf`
 > * **multithread-pizza-store-simulation/** ──► *[Track 2: Asynchronous Event-Driven Pipeline]*
->     * 📄 `code / scripts`
+>     * `code`
 
 ---
 
