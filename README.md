@@ -29,6 +29,7 @@ Parallel-Programming/ (Root)
 │
 └── multithread-pizza-store-simulation/       ──► [Track 2: Asynchronous Event-Driven Pipeline]
     └── code
+---
 
 ### Track 1: Computational Workload Distribution (Numerical Solvers)
 These modules benchmark an identical mathematical workload across different abstraction layers to analyze hardware exploitation efficiency. Detailed performance profiles are compiled within the embedded PDF reports inside each subdirectory.
