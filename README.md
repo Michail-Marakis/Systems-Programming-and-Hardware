@@ -1,33 +1,56 @@
-# High-Performance Concurrency & Workload Optimization
+# Systems Programming & Hardware
 
-[![Language](https://img.shields.io/badge/Language-C%20%7C%20C%2B%2B-blue.svg)](https://isocpp.org/)
+[![Language](https://img.shields.io/badge/Language-C%20%7C%20C%2B%2B%20%7C%20VHDL-blue.svg)](https://isocpp.org/)
 [![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-green.svg)](https://github.com/Michail-Marakis/Parallel-Programming)
-[![Frameworks](https://img.shields.io/badge/Frameworks-CUDA%20%7C%20OpenCL%20%7C%20OpenMP%20%7C%20Pthreads-orange.svg)]()
+[![Technologies](https://img.shields.io/badge/Technologies-CUDA%20%7C%20OpenCL%20%7C%20OpenMP%20%7C%20Pthreads%20%7C%20VHDL-orange.svg)]()
 
-A high-performance computing (HPC) and advanced concurrency sandbox dedicated to optimizing workloads across heterogeneous hardware architectures. This repository features two core engineering tracks: deterministic **Numerical Integration Solvers** optimized across mass-parallel GPU and CPU layers, and a production-grade, asynchronous **Multi-Threaded Pipeline Simulation** modeling strict resource contention.
+A collection of systems programming and hardware design projects focused on parallel computing, concurrency, and low-level software development. The repository explores different workload distribution strategies across CPUs and GPUs, synchronization techniques, multithreaded applications, and includes a simple digital hardware design project implemented in VHDL.
 
-The core objective is to isolate, profile, and mitigate hardware-specific bottlenecks—such as synchronization overhead, thread contention, memory latency, and race conditions—under high-throughput constraints.
+The primary objective is to study performance, scalability, synchronization, memory behavior, and hardware-aware programming through practical implementations.
 
 ---
 
-## Repository Architecture & Subsystems
+## Repository Structure
 
-> **Parallel-Programming/** *(Root)*
-> 
-> * **Workload-Distribution-using-CUDA-OpenCL/** ──► *[Track 1: GPU Hardware Acceleration]*
->     * `CUDA_barrier_experiment.cu`, `CUDA_diffrent_thread_per_block.cu`, `CUDA_diffrent_workload_distribution.cu`, `CUDA_memory_models.cu`
->     * `OPENCL_barrier_experimen.c`, `OPENCL_diffrent_thread_per_block.c`, `OPENCL_diffrent_workload_distribution_CPU.c`, `OPENCL_memory_models.c`
+> **Systems-Programming-Hardware/** *(Root)*
+>
+> * **Workload-Distribution-using-CUDA-OpenCL/** ──► *GPU Parallel Computing*
+>     * `CUDA_barrier_experiment.cu`
+>     * `CUDA_diffrent_thread_per_block.cu`
+>     * `CUDA_diffrent_workload_distribution.cu`
+>     * `CUDA_memory_models.cu`
+>     * `OPENCL_barrier_experimen.c`
+>     * `OPENCL_diffrent_thread_per_block.c`
+>     * `OPENCL_diffrent_workload_distribution_CPU.c`
+>     * `OPENCL_memory_models.c`
 >     * `cuda-opencl-report.pdf`
-> * **Workload-Distribution-using-OpenMP/** ──► *[Track 1: OpenMP Parallelism]*
->     * `integration_using_loop_with_reduction.cpp`, `integration_using_loop_with_no_reduction.cpp`
->     * `integration_task_based_recursion.cpp`, `integration_task_based_no_recursion.cpp`, `integration_alternative_routing.cpp`
+>
+> * **Workload-Distribution-using-OpenMP/** ──► *Shared-Memory Parallelism*
+>     * `integration_using_loop_with_reduction.cpp`
+>     * `integration_using_loop_with_no_reduction.cpp`
+>     * `integration_task_based_recursion.cpp`
+>     * `integration_task_based_no_recursion.cpp`
+>     * `integration_alternative_routing.cpp`
 >     * `OpenMP-report.pdf`
-> * **Workload-Distribution-using-pthreads/** ──► *[Track 1: Low-Level OS Threading]*
->     * `integration.cpp`, `integration_using_locks.cpp`, `integration-no-locks.cpp`
->     * `integration-dynamic-sharing-job-queue.cpp`, `integration_with_jumps.cpp`
+>
+> * **Workload-Distribution-using-pthreads/** ──► *POSIX Threads*
+>     * `integration.cpp`
+>     * `integration_using_locks.cpp`
+>     * `integration-no-locks.cpp`
+>     * `integration-dynamic-sharing-job-queue.cpp`
+>     * `integration_with_jumps.cpp`
 >     * `pthread-report.pdf`
-> * **multithread-pizza-store-simulation/** ──► *[Track 2: Asynchronous Event-Driven Pipeline]*
->     * `thread-handling-pizza.c`, `thread-handling-pizza.h`, `test-res.sh`
+>
+> * **multithread-pizza-store-simulation/** ──► *Multithreaded Pipeline Simulation*
+>     * `thread-handling-pizza.c`
+>     * `thread-handling-pizza.h`
+>     * `test-res.sh`
+>
+> * **16-bit-ALU-VHDL/** ──► *Introductory Digital Hardware Design*
+>     * 16-bit Arithmetic Logic Unit (ALU)
+>     * Structural VHDL Design
+>     * Arithmetic & Logic Operations
+>     * Project Report
 
 ---
 
