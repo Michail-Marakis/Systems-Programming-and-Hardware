@@ -47,9 +47,8 @@ The primary objective is to study performance, scalability, synchronization, mem
 >     * `test-res.sh`
 >
 > * **16-bit-ALU-VHDL/** ──► *Introductory Digital Hardware Design*
->     * 16-bit Arithmetic Logic Unit (ALU)
->     * Structural VHDL Design
->     * Arithmetic & Logic Operations
+>     * alu_system.vhd
+>     * alu_components.vhd
 >     * Project Report
 
 ---
