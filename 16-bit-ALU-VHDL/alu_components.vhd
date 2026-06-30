@@ -14,7 +14,7 @@ ARCHITECTURE Full_adder_arch OF Full_adder IS
 BEGIN
     
 	 S1 <= A AND (NOT B) AND (NOT Cin);
-    S2 <= (NOT A) AND B AND (NOT Cin);				--dimiourgia full_adder kai kratoumenou
+    S2 <= (NOT A) AND B AND (NOT Cin);				--create full adder
     S3 <= (NOT A) AND (NOT B) AND Cin;
     S4 <= A AND B AND Cin;
     Sum <= S1 OR S2 OR S3 OR S4;
@@ -43,13 +43,13 @@ ARCHITECTURE Part1_arch OF Part1 IS
 
 BEGIN
     AI <= A WHEN AINVERT = '0' ELSE NOT A;
-    BI <= B WHEN BINVERT = '0' ELSE NOT B;					--to kykloma arxizei me tous polyplektes 2-1 gia a,b h ta sympliromata tous
+    BI <= B WHEN BINVERT = '0' ELSE NOT B;					--circuit starts with multiplexers 2-1 for a,b or the inverts
 
     A3: Full_adder PORT MAP(AI, BI, Cin, S, Cout);
 
     WITH OPERATION SELECT
         F <= AI AND BI WHEN "00",
-             AI OR BI WHEN "01",										-- epilogh apotelesmatos me polyplekth 4-1 
+             AI OR BI WHEN "01",										-- choice for result of multiplexer 4-1 
              S WHEN "10",
              AI XOR BI WHEN "11";
 
