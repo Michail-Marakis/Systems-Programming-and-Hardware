@@ -91,7 +91,7 @@ A simple VHDL project implementing a modular 16-bit Arithmetic Logic Unit (ALU).
 - 16-bit ALU
 - Opcode Control Unit
 
-> **Roadmap:** Additional VHDL projects covering topics from my Computer Architecture coursework will be added as the course progresses.
+> **Roadmap:** Additional VHDL projects covering topics from my Computer Architecture coursework will be added when i finish the course
 
 ## Toolchain
 
