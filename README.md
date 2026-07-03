@@ -78,7 +78,6 @@ Features include:
 - Mutexes and Condition Variables
 - Shared resource synchronization
 - Order processing pipeline
-- Automated testing script
 
 ---
 
