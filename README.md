@@ -14,13 +14,13 @@ The projects were developed as part of university coursework and personal experi
 
 > **Systems-Programming-Hardware/**
 >
->  **Parallel-Programming/**
+> * **Parallel-Programming/**
 >     * **Workload-Distribution-using-CUDA-OpenCL/** ──► *GPU Computing*
 >     * **Workload-Distribution-using-OpenMP/** ──► *Shared-Memory Parallelism*
 >     * **Workload-Distribution-using-pthreads/** ──► *POSIX Threads*
 >     * **multithread-pizza-store-simulation/** ──► *Concurrent Systems Simulation*
 >
->  **VHDL/**
+> * **VHDL/**
 >     * **16-bit-ALU/** ──► *Introductory Digital Hardware Design*
 
 ---
