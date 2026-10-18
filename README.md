@@ -1,7 +1,7 @@
 # Systems Programming & Hardware
 
 [![Language](https://img.shields.io/badge/Language-C%20%7C%20C%2B%2B%20%7C%20VHDL%20%7C%20CUDA-blue.svg)](https://isocpp.org/)
-[![Platform](https://img.shields.io/badge/Platform-Windows.svg)](https://github.com/Michail-Marakis/Systems-Programming-Hardware)
+(https://github.com/Michail-Marakis/Systems-Programming-Hardware)
 [![Technologies](https://img.shields.io/badge/Technologies-OpenCL%20%7C%20OpenMP%20%7C%20Pthreads-orange.svg)]()
 
 The projects were developed as part of university coursework and personal experimentation to better understand performance, scalability, synchronization mechanisms, and hardware-oriented programming.. The repository contains implementations using CUDA, OpenCL, OpenMP, POSIX Threads, and VHDL, focusing on workload distribution, synchronization, multithreaded systems, and basic hardware architecture. 
