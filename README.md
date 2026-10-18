@@ -66,19 +66,6 @@ Topics explored:
 
 ---
 
-## Multi-threaded Pizza Store Simulation
-
-A producer-consumer simulation of a pizza delivery system implemented with POSIX Threads.
-
-Features include:
-
-- Multiple concurrent worker threads
-- Mutexes and Condition Variables
-- Shared resource synchronization
-- Order processing pipeline
-
----
-
 # VHDL
 
 ## Introductory Hardware Design (VHDL)
